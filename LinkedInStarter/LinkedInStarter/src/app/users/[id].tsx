@@ -36,7 +36,6 @@ export default function UserProfile() {
           {/* Profile image */}
           <Image source={{ uri: user.image }} style={styles.image} />
 
-          {/* Name and Position */}
           <Text style={styles.name}>{user.name}</Text>
           <Text>{user.position}</Text>
 
